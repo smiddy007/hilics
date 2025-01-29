@@ -63,11 +63,11 @@ This simulation uses two actuators. Each actuator has an analog output to determ
 This simulation has two analog sensors and three digital sensors. The two analog sensors represent differential pressure transmitters (DPTs).
 
 * Flow DPT
-	* Analog input 1 - I:0/5
+	* Analog input 1 - I:0.5
 	* Min - 0v (0) - 0 flow
 	* Max - 10V (1023) - 10% of the tank level per second
 * Fluid level DPT
-	* Analog input 0 - I:0/4
+	* Analog input 0 - I:0.4
 	* Min - 0v (0) - tank empty
 	* Max - 10V (1023) - tank full 
 * Float sensors (not used in lab)
